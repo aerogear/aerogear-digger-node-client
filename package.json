@@ -2,7 +2,10 @@
   "name": "digkins",
   "version": "1.0.0",
   "description": "AeroGear Digger node.js client",
-  "main": "bin/digkins.js",
+  "main": "./bin/digkins.js",
+  "bin": {
+    "fhc": "./bin/digkins.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
