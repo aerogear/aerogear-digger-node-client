@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var yargonaut = require('yargonaut')
   .style('red')
   .helpStyle('green')
