@@ -11,7 +11,8 @@
             "program": "${workspaceRoot}/bin/digkins.js",
             "cwd": "${workspaceRoot}",
             "outFiles": [],
-            "args":["job","create","test","https://jenkins-digger.osm3.feedhenry.net"],
+            // Replace args with any command you wish for debugging
+            //"args":["job","create","test"],
             "sourceMaps": true
         },
         {
