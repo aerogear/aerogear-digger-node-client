@@ -29,7 +29,7 @@ digkins job build my-androip-build
   Create jenkins job for git repository with Jenkinsfile                         
   digkins job create <name> [repository] [branch]  
 
-  Setup jenkins credetials and login into jenkins                          
+  Setup jenkins credentials and login into jenkins                          
   digkins login <url> [user] [password] 
 
   Stream jenkins logs for triggered build
