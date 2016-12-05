@@ -1,0 +1,46 @@
+{
+  "name": "digkins",
+  "version": "1.0.0",
+  "description": "AeroGear Digger node.js client",
+  "main": "./bin/digkins.js",
+  "bin": {
+    "digkins": "./bin/digkins.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aerogear/digger-node.git"
+  },
+  "author": {
+    "name": "AeroGear",
+    "email": "aerogear-dev@lists.jboss.org"
+  },
+  "keywords": [
+    "build",
+    "ci",
+    "jenkins",
+    "rhmap",
+    "mobile",
+    "android",
+    "ios"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "configstore": "^2.1.0",
+    "jenkins": "^0.20.0",
+    "readline-sync": "^1.4.5",
+    "underscore": "^1.8.3",
+    "winston": "^2.3.0",
+    "yargonaut": "^1.1.2",
+    "yargs": "^6.5.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "gruntify-eslint": "^3.1.0"
+  }
+}
