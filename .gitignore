@@ -49,3 +49,8 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
+# Intellij Idea files
+.idea/
+
+# VS code files
+.vscode/
