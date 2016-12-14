@@ -7,7 +7,7 @@
     "digkins": "./bin/digkins.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
@@ -41,6 +41,10 @@
   },
   "devDependencies": {
     "grunt": "^1.0.1",
-    "gruntify-eslint": "^3.1.0"
+    "grunt-mocha-test": "^0.13.2",
+    "gruntify-eslint": "^3.1.0",
+    "mocha": "^3.2.0",
+    "proxyquire": "^1.7.10",
+    "sinon": "^1.17.6"
   }
 }
