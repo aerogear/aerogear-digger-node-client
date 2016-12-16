@@ -6,14 +6,15 @@ module.exports = function(grunt) {
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
     eslint: {
-      src: ['lib/**/*.js', 'bin/*.js'],
+      options: { fix: true },
+      src: ['lib/**/*.js', 'bin/*.js','test/**/*.js'],
     },
     mochaTest: {
       test: {
         options: {
           reporter: 'spec',
-          quiet: false, 
-          clearRequireCache: false, // Optionally clear the require cache before running tests (defaults to false) 
+          quiet: false,
+          clearRequireCache: false,
           noFail: false
         },
         src: ['test/**/*.js']
